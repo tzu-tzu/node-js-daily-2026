@@ -113,6 +113,13 @@ https://hackmd.io/V_QKZeITQdW_Peart2NnFA?view
 Day 36：使用 Seeder 寫入資料，確認資料表可以使用  
 https://hackmd.io/fWoSprA8SE-fVu6qNVX5kQ?view  
 
+Day 37：看懂 API 規格書（OpenAPI 與 Swagger UI）  
+https://hackmd.io/Kph_8pErS6iVrwrfyYD5fA
+
+Day 38：後端與資料庫的連線  
+https://hackmd.io/WDu5nM3mTAquTD5L10DS9g?view
+
+
 ## 直播課上課教材 - NodeJS
 Week 1：Node.js 內建模組概念  
 https://hackmd.io/@hexschool/HJ4Nmo42Wg

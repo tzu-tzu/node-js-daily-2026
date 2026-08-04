@@ -9,6 +9,28 @@
 // 請根據以上需求，回答下列問題：
 
 // 上面列出的欄位裡，哪些需要設定成「必填」？哪些需要設定成「唯一」？哪個欄位該當主鍵？請逐一說明。
+必填 nullable: false : id title code capacity
+唯一 unique: true : code
+主鍵 primary: true generated: true : id
 // code 欄位除了要「必填」，還需要哪個額外設定？為什麼這個需求不能只靠「必填」就滿足？
+code: {
+    type: 'varchar',
+    length: 20,
+    nullable: false,
+    unique: true,
+},
+
 // 「建立時間」與「更新時間」這兩個欄位，在 entity 裡通常會怎麼設定，才能不用工程師自己手動塞值？
+createdAt: {
+  type: 'timestamp',
+  createDate: true, // 新增資料時自動填入當下時間
+},
+updatedAt: {
+  type: 'timestamp',
+  updateDate: true, // 每次更新資料時自動更新成當下時間
+},
+
+
 // 如果 capacity 一開始被設計成 varchar 型別，短期內畫面顯示可能看不出問題，但之後可能會在什麼情境下才發現選錯型別？
+???
+如果 capacity 被設計成 varchar，短期內只是單純顯示數字，畫面上不會有異狀。但等到之後需要「用人數上限排序課程」「篩選出人數上限大於 20 的課程」「把多堂課的人數加總」這類需要真正拿數字做運算或比較的情境時，字串型別的排序或比較方式跟數字不一樣（例如字串比較會把 "9" 排在 "10" 後面），就會發現資料算出來的結果不對，這時才會意識到當初型別選錯了。
