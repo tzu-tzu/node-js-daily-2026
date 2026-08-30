@@ -119,6 +119,30 @@ https://hackmd.io/Kph_8pErS6iVrwrfyYD5fA
 Day 38：後端與資料庫的連線  
 https://hackmd.io/WDu5nM3mTAquTD5L10DS9g?view
 
+Day 39 - 專案分層（routes、controllers 與職責分工
+https://hackmd.io/5kOCzdneS_KZxw2yxO2ISw?view
+
+Day 40 - 用 ORM 操作資料（以 TypeORM Repository 為例）
+https://hackmd.io/B8V14IlCRFSfdNurgP0yRg?view
+
+Day 41 - 軟刪除與資料狀態保留
+https://hackmd.io/MNrCL8oIRUqPS2TPS5k1dA?view
+
+Day 42 - 統一 API 回應與集中錯誤處理
+https://hackmd.io/40D1Rqi2Rwy420QOFS33NA?view
+
+Day 43 - 角色授權與資料所有權檢查
+https://hackmd.io/javnzU6mTzKc-MSBWKLwJg?view
+
+Day 44 - Docker 容器基礎
+https://hackmd.io/VZZdoOG3Tn6y8egMfBPGFQ?view
+
+Day 45 - Docker Compose 多服務編排
+https://hackmd.io/tG1zsTo2R9CpS-YPU2S_fQ?view=
+
+Day 46 - 自動化測試結果判讀與持續整合（CI）
+https://hackmd.io/KUSBQB9uTqKtS2o5a4Cdlw?view
+
 
 ## 直播課上課教材 - NodeJS
 Week 1：Node.js 內建模組概念  
@@ -140,7 +164,7 @@ Week 6：PostgreSQL 資料庫基礎概念 2
 https://hackmd.io/@hexschool/r1HCjk8Nfe
 
 Week 7：PostgreSQL 資料庫索引入門 資料庫進階概念與效能
-https://hackmd.io/@hexschool/S1ZZ0WRNze為誰
+https://hackmd.io/@hexschool/S1ZZ0WRNze
 
 1. 為什麼要使用索引? 索引是什麼?
 2. 索引的情境，何時要使用?
@@ -150,6 +174,36 @@ https://hackmd.io/@hexschool/S1ZZ0WRNze為誰
 
 如果資料很常新增或更新，是否不適合做索引?
 效能上的取捨
+
+Week 8：Express + TypeORM 整合 — Migration 與 Seeding
+https://hackmd.io/@hexschool/BJloatPHfe
+
+Week 9：Node.js 與 PostgreSQL 整合
+https://hackmd.io/@hexschool/Bkci0lMLGe
+
+Week 10：伺服器部署與容器化挑戰
+https://hackmd.io/@hexschool/BkZYoLiLfx
+
+
+## 助教直播講義 - NodeJS
+
+第五堂主線任務
+https://chalk-freedom-ec6.notion.site/3876ab47eb48805f8332e151b197acf0
+
+第六堂主線任務
+https://chalk-freedom-ec6.notion.site/38e6ab47eb4880cda227e214c2bbfd60
+
+第七堂主線任務
+https://chalk-freedom-ec6.notion.site/3916ab47eb4880359b7ed420ec25990c
+
+第八堂主線任務
+https://chalk-freedom-ec6.notion.site/3916ab47eb4880228161cbc56c0140a5
+
+最終任務 - 1
+https://chalk-freedom-ec6.notion.site/1-3916ab47eb4880218b26e164a8b93180
+
+最終任務 - 2
+https://chalk-freedom-ec6.notion.site/2-3916ab47eb488015a59fe404e17e21f0
 
 ## 產品隨手筆記
 
